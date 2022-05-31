@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/basic.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
+
+	<link rel="stylesheet" type="text/css" href="css/newact.css">
+ 	<link rel="stylesheet" type="text/css" href="css/nav.css">
+    <script type="text/javascript" src="scripts/returntop.js"></script>
+	<title></title>
+</head>
+<body>
+	<header class="toplogo">    	
+		<h1 class="logo">
+			<img src="image/logo1.png">
+		</h1>
+	</header>
+	<div class="newaparty">
+	    <div class="return"><h2>New a Event!</h2></div>
+	    
+	    <div id="part1">
+	    	活動照片
+	        <div class="uploadpic">
+	        	<div id="cover"><input type="file" name=""></div>
+	        	<div id="side">
+		        <div></div>
+		        <div></div>
+		        <div></div>
+		    	</div>
+	    	</div>
+	    	活動名稱
+	    	<input type="text" placeholder="Name">
+	    	活動類別
+	    	<select>
+	    		<option>愛心公益</option>
+	    		<option>技能交換</option>
+	    		<option>揪團</option>
+	    		<option>其他</option>
+	    	</select>
+
+	    </div>
+	    <div id="part2">
+	   		活動日期:<br>
+	   		<input type="date"><br>
+	      	活動時間:<br>
+	      	<input type="time"><br>
+	        活動地點:<br>
+	        <input type="text" placeholder="Location"><br>
+	        活動詳情
+	        <textarea>more inform</textarea>
+	    </div>
+	    <div id="part3">
+	    	活動人數
+	    	<input type="text" placeholder="min">
+	    	~
+	    	<input type="text" placeholder="max">
+	    	活動消耗點數
+	        <input type="text" placeholder="points">
+	    	協辦人數
+	    	<input type="text" placeholder="min">
+	    	~
+	    	<input type="text" placeholder="max">
+	        活動發放點數
+	        <input type="text" placeholder="points">
+	        發放方式
+	    	<select>
+	    		<option>每人均分</option>
+	    		<option>前*位均分</option>
+	    		<option>不發放</option>
+	    	</select>
+	    </div>
+	    <div id="btn">
+	    	<div class="laststep">取消</div>
+	    	<div class="nextstep"><input type="submit" name="submit" value="下一步"></div>
+		</div>
+		<div id="space"></div>
+
+	</div> 
+
+		<div class="navigation">
+		    <div id="main">
+		        <div onclick="location.href='index.html';">首頁</div>
+		        <div class="selectednav" onclick="location.href='newact.html';""><img src="image/logo/add.svg"></div>
+		        <div  onclick="location.href='tickets.html';">票券</div>
+		        <div onclick="location.href='personalpage.html';">個人</div>
+		    </div> 
+		</div>
+</body>
+</html>
